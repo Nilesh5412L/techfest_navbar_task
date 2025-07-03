@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Techfest Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      scroll-behavior: smooth;
+    }
+    nav {
+      background-color: #222;
+      padding: 10px 20px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #fff;
+      margin-right: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 80px 20px;
+      margin-top: 60px;
+      border-bottom: 1px solid #ccc;
+    }
+    h2 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#events">Events</a>
+    <a href="#workshops">Workshops</a>
+    <a href="#sponsors">Sponsors</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Sections -->
+  <section id="home">
+    <h2>Home</h2>
+    <p>Welcome to Techfest, the premier event for innovation and technology.</p>
+  </section>
+
+  <section id="events">
+    <h2>Events</h2>
+    <p>We host robotics, hackathons, coding competitions, and more.</p>
+  </section>
+
+  <section id="workshops">
+    <h2>Workshops</h2>
+    <p>Hands-on learning sessions on AI, IoT, Web Development, and more.</p>
+  </section>
+
+  <section id="sponsors">
+    <h2>Sponsors</h2>
+    <p>Meet the organizations that support our vision.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email us at: techfest@iitm.ac.in</p>
+  </section>
+
+</body>
+</html>
